@@ -1,0 +1,20 @@
+{
+  "name": "sapi_two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "BrunoSSantana <brunoosouza15@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.1"
+  }
+}
