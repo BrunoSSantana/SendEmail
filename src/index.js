@@ -1,16 +1,22 @@
 const express = require('express');
+const nunjucks = require('nunjucks');
 const nodemailer = require('nodemailer');
+const methodOverride = require('method-override');
 const SMTP_CONFIG = require('./config/smtp');
 
 const app = express();
 app.use(express.json());
 
-app.get('/', (request, response) => response.send());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+app.use(methodOverride('_method')); // antes das rotas smp
 
-app.post('/send', (request, response) => {
-  const { to, text } = request.body;
+app.get('/', (request, response) => response.render('index.html'));
+
+app.post('/', (request, response) => {
+  const { to, name } = request.body;
   console.log(to);
-  console.log(text);
+  console.log(name);
 
   const transporter = nodemailer.createTransport({
     host: SMTP_CONFIG.host,
@@ -36,6 +42,14 @@ app.post('/send', (request, response) => {
 
   run();
   return response.send();
+});
+
+app.set('view engine', 'njk');
+
+nunjucks.configure('src/app/views', {
+  express: app,
+  autoescape: false,
+  noCache: true,
 });
 
 app.listen(3333, () => { console.log('hello!'); });
