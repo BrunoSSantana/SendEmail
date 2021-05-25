@@ -4,7 +4,7 @@ const User = require('../model/User');
 
 module.exports = {
 
-  index(request, response) { response.render('index.html'); },
+  index(request, response) { response.render('index.njk'); },
 
   async post(request, response) {
     await User.create(request.body);
@@ -37,6 +37,6 @@ module.exports = {
     }
 
     run();
-    return response.send();
+    return response.redirect('/users');
   },
 };
