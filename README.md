@@ -25,7 +25,7 @@
 > Nesta aplicação vamos receber dois valores, o nome e o email do usário , salvar em um banco de dados e enviar para o email cadastrado
 
 <p align="center">
-<img width="600" src="./assets/cadastrando.gif">
+<img width="800px" src="./assets/cadastrando.gif">
 </p>
 
 
