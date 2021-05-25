@@ -69,7 +69,7 @@ Este é um exemplo de como listar as coisas de que você precisa para usar o sof
 http://localhost:3333/
 > Aqui vamos receber o nome e o email do usuário
 
-![Cadastro](./assets/cadastrando.gif)
+![Cadastro](./assets/newsletter.png)
 
 **GET**
 http://localhost:3333/users
