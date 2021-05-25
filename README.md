@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://i.imgur.com/I8eDOVx.png">
+   <img src="./assets/SendEmail.png">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 > Nesta aplicação vamos receber dois valores, o nome e o email do usário , salvar em um banco de dados e enviar para o email cadastrado
 
 <p align="center">
-<img width="600" src="https://media2.giphy.com/media/QAme2fEHm49vaW3pxM/giphy.gif">
+<img width="600" src="./assets/cadastrando.gif">
 </p>
 
 
@@ -69,13 +69,13 @@ Este é um exemplo de como listar as coisas de que você precisa para usar o sof
 http://localhost:3333/
 > Aqui vamos receber o nome e o email do usuário
 
-![Cadastro](https://i.imgur.com/SRWqpMB.png)
+![Cadastro](./assets/cadastrando.gif)
 
 **GET**
 http://localhost:3333/users
 > Aqui será listada todos os usuários
 
-![List](https://i.imgur.com/UOvg5zq.png)
+![List](./assets/table.png)
 
 ## Contribuition
 
