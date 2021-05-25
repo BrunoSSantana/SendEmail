@@ -1,11 +1,17 @@
 const nodemailer = require('nodemailer');
 const SMTP_CONFIG = require('../../config/smtp');
+const User = require('../model/User');
 
 module.exports = {
+
   index(request, response) { response.render('index.html'); },
-  post(request, response) {
-    const { to, name } = request.body;
-    console.log(to);
+
+  async post(request, response) {
+    await User.create(request.body);
+
+    const { email, name } = request.body;
+
+    console.log(email);
     console.log(name);
 
     const transporter = nodemailer.createTransport({
@@ -26,7 +32,7 @@ module.exports = {
         text: 'Texto do Email',
         subject: 'Assunto do e-mail',
         from: 'Bruno Souza <brunoosouza15@gmail.com>',
-        to: ['brunoosouza15@gmail.com', 'brunoosouzas@gmail.com'],
+        to: email,
       });
     }
 
