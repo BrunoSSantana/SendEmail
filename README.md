@@ -1,16 +1,34 @@
-# Nome do projeto
+<p align="center">
+   <img src="https://i.imgur.com/I8eDOVx.png">
+</p>
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<p align="center">
+   <img src="https://img.shields.io/github/repo-size/BrunoSSantana/SendEmail?style=for-the-badge">
+   <img src="https://img.shields.io/github/languages/count/BrunoSSantana/SendEmail?style=for-the-badge">
+   <img src="https://img.shields.io/github/forks/BrunoSSantana/SendEmail?style=for-the-badge">
+   <img src="https://img.shields.io/bitbucket/issues/BrunoSSantana/SendEmail?style=for-the-badge">
+   <img src="https://img.shields.io/bitbucket/pr-raw/BrunoSSantana/SendEmail?style=for-the-badge">
+</p>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/BrunoSSantana/SendEmail?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/BrunoSSantana/SendEmail?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/BrunoSSantana/SendEmail?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/BrunoSSantana/SendEmail?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/BrunoSSantana/SendEmail?style=for-the-badge)
+<p align="center">
+ <a href="#overview">Overview</a> •
+ <a href="#getting-started">Getting Started</a> •
+ <a href="#routes">Routes</a> •
+ <a href="#contribuition">Contribuition</a> •
+ <a href="#author">Author</a> • 
+ <a href="#license">License</a> • 
+ <a href="#author">Author</a>
+</p>
 
-![gif da aplição rodando](https://media2.giphy.com/media/QAme2fEHm49vaW3pxM/giphy.gif)
+## Overview
 
 > Nesta aplicação vamos receber dois valores, o nome e o email do usário , salvar em um banco de dados e enviar para o email cadastrado
+
+<p align="center">
+<img width="600" src="https://media2.giphy.com/media/QAme2fEHm49vaW3pxM/giphy.gif">
+</p>
+
+
 
 ### Ajustes e melhorias
 
@@ -45,7 +63,7 @@ Este é um exemplo de como listar as coisas de que você precisa para usar o sof
    yarn install
    ```
 
-## ☕ Rotas
+## Routes
 
 **POST/**
 http://localhost:3333/
@@ -59,7 +77,7 @@ http://localhost:3333/users
 
 ![List](https://i.imgur.com/UOvg5zq.png)
 
-## 📫 Contribuindo para SendEmail
+## Contribuition
 
 ### Como contribuir?
 Este é um projeto totalmente livre que aceita contribuições via pull requests no GitHub. Este documento tem a responsabilidade de alinhar as contribuições de acordo com os padrões estabelecidos no mesmo. Padrões recomendados por [gitmoji](https://gitmoji.dev/).
@@ -74,22 +92,14 @@ Para contribuir com SendEmail, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
+## Author
+<a href="https://github.com/BrunoSSantana/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61945340?s=400&u=882004ebbccf5ae04e55fe4b27a5e704c3a95bab&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Bruno Santana</b></sub></a> <a href="https://github.com/BrunoSSantana/" title="Rocketseat">🚀</a>
 
-<!-- Agradecemos às seguintes pessoas que contribuíram para este projeto: -->
+Feito com :purple_heart: por Bruno Santana 👋🏽
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/61945340" width="100px;" alt="Foto do Bruno Santana no GitHub"/><br>
-        <sub>
-          <b>Bruno Santana</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
 
 ## Acknowledgements
@@ -99,7 +109,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 * [Best README template - othneildrew](https://github.com/othneildrew/Best-README-Template/)
 
 
-## 📝 Licença
+## License
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
