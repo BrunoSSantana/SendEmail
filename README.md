@@ -43,11 +43,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## Getting Started
 
-Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente. Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
+Para instalar esse projeto localmente, é necessário que você possua as seguinte ferramentas em sua máquina.
 
-### Prerequisites
-
-Este é um exemplo de como listar as coisas de que você precisa para usar o software e como instalá-las.
 - [x] [Nodejs](https://nodejs.org/en/)
 - [x] [yarn](https://yarnpkg.com/)
 - [x] [Mongodb](https://www.mongodb.com/)
@@ -56,11 +53,11 @@ Este é um exemplo de como listar as coisas de que você precisa para usar o sof
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/BrunoSSantana/SendEmail.git
    ```
 2. Install YARN packages
    ```sh
-   yarn install
+   yarn
    ```
 
 ## Routes
