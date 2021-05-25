@@ -17,7 +17,8 @@
  <a href="#contribuition">Contribuition</a> •
  <a href="#author">Author</a> • 
  <a href="#license">License</a> • 
- <a href="#author">Author</a>
+ <a href="#author">Author</a> • 
+ <a href="#acknowledgements">Acknowledgements</a>
 </p>
 
 ## Overview
