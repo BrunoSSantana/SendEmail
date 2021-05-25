@@ -5,8 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/BrunoSSantana/SendEmail?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/BrunoSSantana/SendEmail?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/BrunoSSantana/SendEmail?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/BrunoSSantana/SendEmail?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/BrunoSSantana/SendEmail?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/BrunoSSantana/SendEmail?style=for-the-badge)![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/BrunoSSantana/SendEmail?style=for-the-badge)
 
 ![gif da aplição rodando](https://media2.giphy.com/media/QAme2fEHm49vaW3pxM/giphy.gif)
 
